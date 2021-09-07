@@ -2,9 +2,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class TacoApplication
+class MainApplicazion
 
 fun main(args: Array<String>) {
-    runApplication<TacoApplication>(*args)
+    runApplication<MainApplicazion>(*args)
 }
 
