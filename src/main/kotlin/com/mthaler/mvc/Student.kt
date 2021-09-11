@@ -1,4 +1,4 @@
-package com.mtahler.mvc
+package com.mthaler.mvc
 
 
 class Student {

@@ -1,6 +1,6 @@
-package com.mtahler.mvc.controller
+package com.mthaler.mvc.controller
 
-import com.mtahler.mvc.Customer
+import com.mthaler.mvc.Customer
 import org.springframework.beans.propertyeditors.StringTrimmerEditor
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model

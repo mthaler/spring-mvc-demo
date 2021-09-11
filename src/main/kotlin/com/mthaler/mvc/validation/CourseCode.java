@@ -1,4 +1,4 @@
-package com.mtahler.mvc.validation;
+package com.mthaler.mvc.validation;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

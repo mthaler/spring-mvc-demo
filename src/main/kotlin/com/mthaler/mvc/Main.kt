@@ -1,4 +1,4 @@
-package com.mtahler.mvc
+package com.mthaler.mvc
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

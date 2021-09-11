@@ -1,6 +1,6 @@
-package com.mtahler.mvc
+package com.mthaler.mvc
 
-import com.mtahler.mvc.validation.CourseCode
+import com.mthaler.mvc.validation.CourseCode
 import javax.validation.constraints.*
 
 class Customer {

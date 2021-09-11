@@ -1,4 +1,4 @@
-package com.mtahler.mvc.controller
+package com.mthaler.mvc.controller
 
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model

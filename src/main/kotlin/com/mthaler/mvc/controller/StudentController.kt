@@ -1,6 +1,6 @@
-package com.mtahler.mvc.controller
+package com.mthaler.mvc.controller
 
-import com.mtahler.mvc.Student
+import com.mthaler.mvc.Student
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.ModelAttribute
