@@ -1,7 +1,6 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	id("org.springframework.boot") version "2.5.4"
 	kotlin("jvm") version "1.5.20"
 }
 
@@ -20,6 +19,7 @@ dependencies {
 	implementation("org.slf4j:slf4j-api:1.7.31")
 	implementation("ch.qos.logback:logback-classic:1.2.3")
 	implementation("org.springframework.boot:spring-boot-starter-validation:2.5.4")
+	implementation("org.springframework.boot:spring-boot-starter-web:2.5.4")
 	testImplementation("io.kotest:kotest-runner-junit5:4.3.2")
 	testImplementation("io.kotest:kotest-assertions-core:4.3.2")
 }
