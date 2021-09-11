@@ -18,7 +18,7 @@ class StudentController {
 
         // add student object to the model
         theModel.addAttribute("student", theStudent)
-        return "student-form"
+        return "student-form.jsp"
     }
 
     @RequestMapping("/processForm")
@@ -28,6 +28,6 @@ class StudentController {
         System.out.println(
             "theStudent: " + theStudent.firstName + " " + theStudent.lastName
         )
-        return "student-confirmation"
+        return "student-confirmation.jsp"
     }
 }
