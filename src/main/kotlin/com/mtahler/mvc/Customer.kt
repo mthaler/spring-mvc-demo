@@ -3,13 +3,13 @@ package com.mtahler.mvc
 import com.mtahler.mvc.validation.CourseCode
 import javax.validation.constraints.*
 
-open class Customer {
+class Customer {
 
-    private val firstName: String? = null
+    lateinit var firstName: String
 
     @NotNull(message = "is required")
     @Size(min = 1, message = "is required")
-    private val lastName: String? = null
+    lateinit var lastName: String
 
     @NotNull(message = "is required")
     private val freePasses: @Min(value = 0, message = "must be greater than or equal to zero") @Max(
