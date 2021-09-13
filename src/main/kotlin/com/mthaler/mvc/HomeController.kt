@@ -1,4 +1,4 @@
-package com.mthaler.mvc.controller
+package com.mthaler.mvc
 
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.RequestMapping

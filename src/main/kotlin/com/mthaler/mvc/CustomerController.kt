@@ -1,6 +1,5 @@
-package com.mthaler.mvc.controller
+package com.mthaler.mvc
 
-import com.mthaler.mvc.Customer
 import org.springframework.beans.propertyeditors.StringTrimmerEditor
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
@@ -10,7 +9,6 @@ import org.springframework.web.bind.annotation.InitBinder
 import org.springframework.web.bind.annotation.ModelAttribute
 import org.springframework.web.bind.annotation.RequestMapping
 import javax.validation.Valid
-
 
 @Controller
 @RequestMapping("/customer")

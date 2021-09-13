@@ -11,7 +11,7 @@
         </encoder>
     </appender>
 
-    <logger name="com.mthaler.validation" level="debug"/>
+    <logger name="com.mthaler.,vc" level="debug"/>
 
     <root level="info">
         <appender-ref ref="console" />
