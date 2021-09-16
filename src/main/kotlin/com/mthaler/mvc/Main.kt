@@ -1,9 +1,9 @@
 package com.mthaler.mvc
 
+import com.mthaler.mvc.MainApplication.Companion.logger
 import org.slf4j.LoggerFactory
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import org.springframework.context.support.AbstractRefreshableConfigApplicationContext
 import org.springframework.web.context.support.XmlWebApplicationContext
 import java.util.*
 
@@ -13,6 +13,7 @@ open class MainApplication {
     init {
         val c = XmlWebApplicationContext()
         val config = defaultConfigLocations(c)
+        logger.info(c.displayName)
         logger.info(Arrays.toString(config))
     }
 
