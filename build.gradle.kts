@@ -23,6 +23,8 @@ dependencies {
 	implementation("ch.qos.logback:logback-classic:1.2.3")
 	implementation("org.springframework.boot:spring-boot-starter-validation:2.5.4")
 	implementation("org.springframework.boot:spring-boot-starter-web:2.5.4")
+	implementation("javax.servlet:javax.servlet-api:4.0.1")
+	implementation("javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.2")
 	testImplementation("io.kotest:kotest-runner-junit5:4.3.2")
 	testImplementation("io.kotest:kotest-assertions-core:4.3.2")
 }

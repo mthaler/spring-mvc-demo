@@ -38,7 +38,7 @@ class HelloWorldController {
         var theName = request.getParameter("studentName")
 
         // convert the data to all caps
-        theName = theName.toUpperCase()
+        theName = theName.uppercase()
 
         // create the message
         val result = "Yo! $theName"
@@ -55,8 +55,7 @@ class HelloWorldController {
     ): String {
 
         // convert the data to all caps
-        var theName = theName
-        theName = theName.toUpperCase()
+        val theName = theName.uppercase()
 
         // create the message
         val result = "Hey My Friend from v3! $theName"
