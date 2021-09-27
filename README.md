@@ -13,3 +13,5 @@ server.error.whitelabel.enabled=false
 ```
 
 in `application.properties`
+
+`https://www.baeldung.com/spring-web-contexts`
